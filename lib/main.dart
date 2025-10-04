@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'ui/produk_list.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,22 +11,17 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false, // Hilangkan tulisan debug
+      debugShowCheckedModeBanner: false,
+      title: 'Aplikasi Produk',
       theme: ThemeData(
-        primarySwatch: Colors.blue, // <- warna utama biru
-        useMaterial3: false,        // <- pakai style Material 2 (AppBar biru)
-      ),
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text("Belajar Flutter"),
-        ),
-        body: const Center(
-          child: Text(
-            "Hello World",
-            style: TextStyle(fontSize: 20),
-          ),
+        primarySwatch: Colors.blue,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.blue,
+          foregroundColor: Colors.white,
+          centerTitle: true,
         ),
       ),
+      home: const ProdukList(), // Halaman pertama
     );
   }
 }
