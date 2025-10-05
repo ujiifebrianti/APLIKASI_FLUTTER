@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.start, 
             children: [
               Text("Row 1", style: TextStyle(fontSize: 20)),
-              SizedBox(width: 16), // kasih jarak antar teks
+              SizedBox(width: 16), 
               Text("Row 2", style: TextStyle(fontSize: 20)),
               SizedBox(width: 16),
               Text("Row 3", style: TextStyle(fontSize: 20)),
