@@ -40,7 +40,7 @@ class _ProdukFormState extends State<ProdukForm> {
         builder: (context) => ProdukPage(
           kode: kode,
           nama: nama,
-          harga: int.tryParse(harga) ?? 0, // ubah ke int
+          harga: int.tryParse(harga) ?? 0, // 
         ),
       ),
     );
