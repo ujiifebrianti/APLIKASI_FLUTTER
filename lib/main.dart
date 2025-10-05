@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
       ),
-      home: const ProdukList(), // Halaman pertama
+      home: const ProdukList(), 
     );
   }
 }
