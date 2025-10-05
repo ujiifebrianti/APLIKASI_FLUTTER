@@ -5,24 +5,24 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key}); // cara penulisan super.key lebih modern
+  const MyApp({super.key}); 
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "Aplikasi Flutter Pertama",
-      debugShowCheckedModeBanner: false, // untuk menghilangkan banner debug
+      debugShowCheckedModeBanner: false, 
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue, // AppBar biru
+          backgroundColor: Colors.blue, 
           title: const Text(
             'Belajar Flutter',
             style: TextStyle(
-              color: Colors.white, // Tulisan putih
+              color: Colors.white, 
               fontWeight: FontWeight.bold,
             ),
           ),
-          centerTitle: true, // agar teks di tengah
+          centerTitle: true, 
         ),
         body: const Center(
           child: Text(
