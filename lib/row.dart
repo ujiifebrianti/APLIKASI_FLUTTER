@@ -20,9 +20,9 @@ class MyApp extends StatelessWidget {
           title: const Text("Widget Row"),
         ),
         body: const Padding(
-          padding: EdgeInsets.all(16.0), // kasih jarak biar gak mepet
+          padding: EdgeInsets.all(16.0), 
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.start, // widget mulai dari kiri
+            mainAxisAlignment: MainAxisAlignment.start, 
             children: [
               Text("Row 1", style: TextStyle(fontSize: 20)),
               SizedBox(width: 16), // kasih jarak antar teks
